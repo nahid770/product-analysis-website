@@ -8,7 +8,7 @@ const Home = () => {
         <div className='body'>
           <div className='header-continer grid grid-cols-2 bg-blue-200 w-full h-full'>
           <div className='text-container mr-6 p-10' >
-         <h2 className='text-5xl text-white'>Choose The Best <span className='text-green-400'>Laptop</span> For Your Work</h2>
+         <h2 className='text-5xl text-white'>Choose The Best <span className='text-green-400 laptop'>Laptop</span> For Your Work</h2>
         <p className='mt-4'> Microsoft Surface Laptop 4 15” Touch-Screen AMD Ryzen 7 Surface Edition - 8GB - 512GB Solid State Drive (Latest Model) - Matte Black</p>
         <button className='button'>Learn More</button>
           </div>
