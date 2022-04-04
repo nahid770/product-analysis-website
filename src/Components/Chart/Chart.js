@@ -1,8 +1,6 @@
 import React from 'react';
-import { Bar, BarChart, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
-import './Dashbord.css'
 
-const Dashbord = () => {
+const Chart = () => {
     const data= [
         {
             "month": "Mar",
@@ -39,37 +37,14 @@ const Dashbord = () => {
             "investment": 700000,
             "sell": 670,
             "revenue": 61000
-        },
-    ];
+        }
+    ]
+
     return (
-        <div >
-            <h2 className='text-3xl font-light mt-5'>Wellcome To Dashbord</h2>
-
-        <div className='chart ml-20 mt-20'>
         <div>
-        <LineChart width={500} height={400} data={data}>
-          <Line dataKey={'sell'}></Line>
-          <XAxis dataKey='month'></XAxis>
-          <YAxis></YAxis>
-          <Tooltip />
-          </LineChart>
+            
         </div>
-
-        <div className='ml-20'>
-        <BarChart width={600} height={400} data={data}>
-        <XAxis dataKey="month"  />
-        <YAxis />
-        <Tooltip />
-        <Bar dataKey="sell" barSize={30} fill="#8884d8"
-        />
-        </BarChart>
-        </div>
-        </div>
-
-
-        </div>
-        
     );
 };
 
-export default Dashbord;
+export default Chart;
