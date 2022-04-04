@@ -8,6 +8,7 @@ const Header = () => {
               <Link className='mr-8  font-bold' to="/review">Review</Link>
               <Link className='mr-8  font-bold' to="/dashbord">Dashbord</Link>
               <Link className='mr-8  font-bold' to="/about">About</Link>
+              <Link className='mr-8  font-bold' to="/blogs">Blog</Link>
         </nav>
     );
 };
