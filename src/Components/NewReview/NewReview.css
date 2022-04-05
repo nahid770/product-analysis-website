@@ -1,8 +1,43 @@
 .review-img{
     height: 100px;
     width: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding-bottom: 5px;
 }
 
-.style-review{
-   display: flex;
+
+
+.review-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-top: 20px;
+   margin-left: 30px;
+   margin-right: 30px;
+   padding-left: 15px;
+   
+  
+   
+   
+}
+.review-container div{
+    border: 1px solid gray;
+    height: 250px;
+    width: 400px;
+    padding: 10px 25px;
+    border-radius: 20%;
+    box-shadow: 0px 2px 3px ;
+    background-color:#7d5fff;
+    padding-bottom: 4px;
+    
+   
+    
+}
+.review-container h2{
+    font-weight: 700;
+}
+.review-container .rating{
+    color: tomato;
+    font-weight: 500;
 }

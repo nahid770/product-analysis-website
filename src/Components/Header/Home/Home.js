@@ -8,6 +8,7 @@ const Home = () => {
 
   const [UserReview, setUserReview] = ReviewHook();
     return (
+      // home header section
         <div className='body'>
           <div className='header-continer grid grid-cols-2 bg-blue-200 w-full h-full'>
           <div className='text-container mr-6 p-10' >
@@ -20,28 +21,19 @@ const Home = () => {
           </div>
           </div>
 
-          
-        <div className='customer-review'>
-        
-        <div className=' mt-10'>
-        <h2 className='text-4xl font-mono font-bold pt-10'>Customer Reviews</h2>
-        </div>
-       
+  {/* customer review section */}
+      <h2 className='text-4xl font-mono font-bold pt-10 mt-4 mb-10'>Customer Reviews</h2>
 
+      <div className='customer-comment'>
       {
-        UserReview.map(comments => <NewReview 
-         
+        UserReview.map(comments => <NewReview         
           comments={comments}
-        
         ></NewReview>)
       }
-
+      </div>
+        
         
         <Link className='mr-8 review-btn font-bold' to="/review">See All Reviews</Link>
-        
-
-        </div>
-
         </div>
 
     );
