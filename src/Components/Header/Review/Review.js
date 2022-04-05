@@ -1,10 +1,37 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import ReviewHook from '../../../CustomHook/ReviewHook';
+import NewReview from '../../NewReview/NewReview';
 
 const Review = () => {
+    const [UserReview, setUserReview] = ReviewHook();
     return (
         <div>
            
-           <div className='customer-review  '>
+           <div className='customer-review '>
+        
+        <div className=' mt-10'>
+        <h2 className='text-4xl font-mono font-bold pt-10'>Customer Reviews</h2>
+        </div>
+       
+        <div className=''>
+      {
+        UserReview.map(comments => <NewReview
+         
+          comments={comments}
+        
+        ></NewReview>)
+      }
+      </div>
+        
+        <Link className='mr-8 review-btn font-bold' to="/review">See All Reviews</Link>
+        
+
+        </div>
+
+
+
+           {/* <div className='customer-review  '>
         
         <div className=' mt-10'>
         <h2 className='text-4xl font-mono font-bold pt-10'>Customer Reviews</h2>
@@ -56,7 +83,7 @@ const Review = () => {
         <button className='review-btn'>See All Reviews</button>
         
 
-        </div>
+        </div> */}
 
         </div>
     );

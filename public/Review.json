@@ -1,0 +1,44 @@
+[
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzyALOcLp4ykOIC4bim8L0xZIvgfLLZEo-mg&usqp=CAU",
+      "about": "I'm buying Surface Laptops almost every year because my sister and girlfriend are borrowing these laptops from me and never return them :D\r\n",
+      "name": "Gevorg Martirosyan",
+      "id": 0,
+      "rating": 3.9
+    },
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv_8jyrBjic0ELBWNbA2JH7ufzOb3jkJvN8Q&usqp=CAU",
+      "about": " This is my third Surface and Im really pleased. The first lasted me 5 years and I loved it.\r\n",
+      "name": "Store Mgr",
+      "id": 1,
+      "rating":4.5
+    },
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXSTblEVkkdJh15jlAbC3FpvuzCKb1o-pQQA&usqp=CAU",
+      "about": "I'm homebound for ~6 months with 2 broken ankles; the sporadic function of the Chromebook.\r\n",
+      "name": "Ryan Pope",
+      "id": 2,
+      "rating": 4
+    },
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbBMwRJfFeRL23d-4MB-yq_6NyJFUw7zprYQ&usqp=CAU",
+      "about": "The camera can be improved. It would also be nice to have another camera on the cover like a Surface Pro.  I really like this extra screen space.\r\n",
+      "name": "Loucardinal",
+      "id": 3,
+      "rating": 4
+    },
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx7FfWrqJ5ro7SdxlBsnmCo_mwrnRly5mHUg&usqp=CAU",
+      "about": "I really like the size and style. The keyboard side has this really nice suede-like material that takes the style value up a notch. Really easy to work with.\r\n",
+      "name": "Kim",
+      "id": 4,
+      "rating": 5
+    },
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHUvOd8Q-VihyupbJCdgjIR2FxnjGtAgMu3g&usqp=CAU",
+      "about": "I could be wrong, but it was hard to find a Surface Laptop 4 on short notice and this one seems to have fit the bill\r\n",
+      "name": "Curtis",
+      "id": 5,
+      "rating": 4
+    }
+  ]

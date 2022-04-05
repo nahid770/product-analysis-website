@@ -47,6 +47,7 @@ const Dashbord = () => {
 
         <div className='chart ml-20 mt-20'>
         <div>
+        <h2 className='text-2xl mb-6 '>Investment VS Sales</h2>
         <LineChart width={500} height={400} data={data}>
           <Line dataKey={'sell'}></Line>
           <XAxis dataKey='month'></XAxis>
@@ -56,6 +57,7 @@ const Dashbord = () => {
         </div>
 
         <div className='ml-20'>
+            <h2 className='text-2xl mb-6'>Investment VS Sales</h2>
         <BarChart width={600} height={400} data={data}>
         <XAxis dataKey="month"  />
         <YAxis />
